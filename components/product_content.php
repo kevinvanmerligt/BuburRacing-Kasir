@@ -1,4 +1,4 @@
-<!-- ============ KONTEN PRODUK (KATEGORI TABS + GRID) ============ -->
+<?php ?>
 <main class="flex-1 flex flex-col gap-6 overflow-hidden relative">
     <div class="flex gap-4 shrink-0">
         <button onclick="scrollToCategory('kategori-bubur', this)" class="cat-btn px-8 py-2 bg-[#e0dce1] text-gray-800 font-semibold rounded-lg shadow-sm transition border border-transparent">Bubur</button>
@@ -9,7 +9,6 @@
 
     <div id="product-container" class="overflow-y-auto custom-scroll pr-4 pb-20">
         
-        <!-- ===== KATEGORI: BUBUR ===== -->
         <div id="kategori-bubur" class="mb-8 scroll-mt-6">
             <h2 class="text-2xl font-bold mb-4 flex items-center gap-2 text-gray-800">Bubur</h2>
             <?php if(count($produk_bubur) > 0): ?>
@@ -46,7 +45,6 @@
 
         <div class="mb-4 text-gray-400"><hr class="border-gray-300 border-2 rounded-full"></div>
         
-        <!-- ===== KATEGORI: TOPING ===== -->
         <div id="kategori-toping" class="scroll-mt-6">
             <h2 class="text-2xl font-bold mb-4 flex items-center gap-2 text-gray-800">Toping</h2>
             <?php if(count($produk_toping) > 0): ?>
@@ -85,7 +83,6 @@
 
         <div class="mb-4 text-gray-400 mt-8"><hr class="border-gray-300 border-2 rounded-full"></div>
         
-        <!-- ===== KATEGORI: MINUMAN ===== -->
         <div id="kategori-minuman" class="scroll-mt-6">
             <h2 class="text-2xl font-bold mb-4 flex items-center gap-2 text-gray-800">Minuman</h2>
             <?php if(count($produk_minuman) > 0): ?>

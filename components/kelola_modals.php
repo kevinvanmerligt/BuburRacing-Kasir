@@ -1,4 +1,4 @@
-<!-- ============ MODAL FORM TAMBAH/EDIT PRODUK ============ -->
+<?php ?>
 <div id="form-modal" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-40 hidden flex justify-center items-center transition-all overflow-y-auto py-10">
     <form method="POST" action="kelolaproduk.php" class="bg-white w-[500px] rounded-[2rem] shadow-2xl relative p-8 flex flex-col animate-pop my-auto">
         <input type="hidden" name="action" id="form-action" value="add">
@@ -53,7 +53,6 @@
     </form>
 </div>
 
-<!-- ============ MODAL CROPPER ============ -->
 <div id="cropper-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[600px] rounded-[2rem] shadow-2xl p-6 flex flex-col animate-pop">
         <h3 class="text-xl font-bold mb-4 text-center">Sesuaikan Gambar</h3>
@@ -67,7 +66,6 @@
     </div>
 </div>
 
-<!-- ============ MODAL SUKSES ============ -->
 <div id="success-modal" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[420px] rounded-[2rem] shadow-2xl relative px-8 py-10 flex flex-col items-center animate-pop">
         <div class="w-16 h-16 mx-auto bg-blue-500 rounded-full flex items-center justify-center mb-5">
@@ -78,7 +76,6 @@
     </div>
 </div>
 
-<!-- ============ MODAL KONFIRMASI HAPUS ============ -->
 <div id="delete-confirm-modal" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[350px] rounded-3xl shadow-2xl p-6 py-8 flex flex-col items-center animate-pop">
         <h3 class="text-[17px] font-semibold text-black mb-8 text-center tracking-wide">Apakah ingin Mengapus data??</h3>
@@ -89,7 +86,6 @@
     </div>
 </div>
 
-<!-- ============ MODAL SUKSES HAPUS ============ -->
 <div id="delete-success-modal" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[320px] rounded-3xl shadow-2xl p-6 py-8 flex flex-col items-center animate-pop">
         <h3 class="text-[17px] font-semibold text-black mb-8 text-center tracking-wide">Produk Telah di Hapus</h3>

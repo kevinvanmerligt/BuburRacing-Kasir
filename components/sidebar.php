@@ -1,7 +1,4 @@
-<!-- ============ SIDEBAR NAVIGASI ============ -->
 <?php
-// Set $active_page sebelum include untuk highlight menu yang aktif
-// Values: 'produk', 'kelolaproduk', 'riwayat'
 $active_page = $active_page ?? 'produk';
 ?>
 <aside class="w-20 bg-gradient-to-b from-[#e5e1e6] to-[#3b173c] rounded-3xl flex flex-col items-center py-6 justify-between shadow-md shrink-0">

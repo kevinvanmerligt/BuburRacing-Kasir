@@ -1,4 +1,4 @@
-<!-- ============ HEAD: Fonts & Styles ============ -->
+<?php ?>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Squada+One&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>

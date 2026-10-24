@@ -1,4 +1,4 @@
-<!-- ============ KONTEN KELOLA PRODUK ============ -->
+<?php ?>
 <main class="flex-1 flex flex-col gap-6 overflow-hidden">
     <div class="flex justify-between items-center shrink-0">
         <div class="flex gap-4">

@@ -1,4 +1,4 @@
-<!-- ============ PANEL PESANAN (CART SIDEBAR) ============ -->
+<?php ?>
 <aside class="w-[420px] bg-white rounded-[2rem] shadow-xl flex flex-col shrink-0 overflow-hidden border border-gray-100">
     <div class="p-6 pb-4">
         <h2 class="text-2xl font-bold text-center mb-5 text-gray-800">PESANAN</h2>

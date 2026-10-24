@@ -185,7 +185,6 @@ function closeCropper() {
     if (fileInput) fileInput.value = ''; 
 }
 
-// Inisialisasi event listener dan modal setelah DOM siap
 document.addEventListener('DOMContentLoaded', function () {
     const inputHarga = document.getElementById('input-harga');
     if (inputHarga) {
@@ -224,7 +223,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Cek parameter URL untuk menampilkan modal status
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('success')) {
         const successModal = document.getElementById('success-modal');

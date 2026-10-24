@@ -1,4 +1,4 @@
-<!-- ============ MODAL PEMBAYARAN ============ -->
+<?php ?>
 <div id="payment-modal" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[420px] rounded-[2rem] shadow-2xl relative p-8 flex flex-col animate-pop max-h-[90vh] overflow-y-auto custom-scroll">
         <button onclick="closeModal()" class="absolute top-4 right-4 w-8 h-8 flex justify-center items-center rounded-full text-gray-400 border-2 border-gray-400 hover:text-black hover:border-black transition">
@@ -9,7 +9,6 @@
     </div>
 </div>
 
-<!-- ============ CUSTOM ALERT ============ -->
 <div id="custom-alert" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-[100] hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[350px] rounded-2xl shadow-2xl relative p-6 flex flex-col items-center animate-pop">
         <div class="w-14 h-14 rounded-full bg-red-100 flex justify-center items-center mb-4 text-red-500">
@@ -21,7 +20,6 @@
     </div>
 </div>
 
-<!-- ============ CUSTOM CONFIRM ============ -->
 <div id="custom-confirm" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-[100] hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[350px] rounded-2xl shadow-2xl relative p-6 flex flex-col items-center animate-pop">
         <div class="w-14 h-14 rounded-full bg-yellow-100 flex justify-center items-center mb-4 text-yellow-500">

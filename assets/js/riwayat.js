@@ -40,7 +40,6 @@ function searchRiwayat() {
     });
 }
 
-// Biar kompatibel jika searchProduct() dipanggil dari header
 window.searchProduct = searchRiwayat;
 
 function openDetailModal(data) {

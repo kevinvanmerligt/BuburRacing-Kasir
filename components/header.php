@@ -1,6 +1,4 @@
-<!-- ============ HEADER BAR ============ -->
 <?php
-// Default values jika tidak di-set dari halaman pemanggil
 $page_title = $page_title ?? 'MAIN MENU';
 $search_placeholder = $search_placeholder ?? 'Cari nama produk...';
 ?>

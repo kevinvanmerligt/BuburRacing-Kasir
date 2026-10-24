@@ -1,4 +1,4 @@
-<!-- ============ MODAL DETAIL RIWAYAT ORDER ============ -->
+<?php ?>
 <div id="detail-modal" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 hidden flex justify-center items-center transition-all">
     <div class="bg-white w-[380px] rounded-3xl shadow-2xl relative p-8 flex flex-col animate-pop max-h-[90vh] overflow-y-auto custom-scroll">
         
